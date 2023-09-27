@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 626px;
+    width: 1280px;
+    background-color: burlywood;
+}
+
+
+.app-compo{
+    height: 590px;
+    width: 350px;
+    background-color: #fff;
+    margin: 25px auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.bnb--nav{
+    height: 70px;
+    width: 350px;
+    /* position: absolute; */
+    top: 3px;
+    background-color: #fff;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 255, .2);
+    display: flex;
+    align-items: center;
+}
+.bnb--logo{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+}
+.logo--name{
+    color: #e16c6c;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+
+.bnb-sec1{
+    height: 230px;
+    width: 350px;
+}
+.sec1--img{
+    height: 200px;
+    width: 340px;
+    padding-top: 10px;
+}
+
+.component{
+    height: 291px;
+    width: 350px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.cards{
+    height: 280px;
+    width: 150px;
+    margin-left: 10px;
+    box-shadow: 5px 3px 4px 0px rgba(0, 0, 255, .2);
+}
+
+.card--ico{
+    height: 60px;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.star{
+    height: 10px;
+    width: 10px;
+    padding-top: 3px;
+}
+.hotel-name{
+    width: 100px;
+}
+h4{
+    max-width: 100px;
+}
+.card--img1{
+    height: 150px;
+    width: 150px;
+}
+
+.cards-compo{
+
+    display: flex;
+}
