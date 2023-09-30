@@ -1,0 +1,31 @@
+import React from "react";
+import Navbar from "./components/navbar";
+import Section from "./components/section1";
+import Cards from "./components/cards";
+import data from "./data.js"
+function App() {
+  const cards = data.map((items) => {
+    return (
+      <Cards
+      key={items.id}
+        img={items.img}
+        location={items.location}
+        title={items.title}
+        price={items.price}
+        className="card--compo"
+      />
+    )
+  })
+  return (
+    <div className="app-compo">
+      <Navbar />
+      <Section />
+      <div className="main">
+        <div className="main--compo">
+          {cards}
+        </div>
+      </div>
+    </div>
+  )
+}
+export default App;
